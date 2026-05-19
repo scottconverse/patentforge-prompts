@@ -1,6 +1,6 @@
-# Patent Analyzer — Prompt System
+# PatentForge Prompts
 
-> **This tool is NOT legal advice.** Patent Analyzer Prompts is an AI-powered research tool that helps inventors organize their thinking before consulting a patent attorney. It does not create an attorney-client relationship. The author is not a lawyer. Always consult a registered patent attorney before making filing decisions. See [LEGAL_NOTICE.md](LEGAL_NOTICE.md) and [Terms of Service](docs/terms.html) for full details.
+> **This tool is NOT legal advice.** PatentForge Prompts is an AI-powered research tool that helps inventors organize their thinking before consulting a patent attorney. It does not create an attorney-client relationship. The author is not a lawyer. Always consult a registered patent attorney before making filing decisions. See [LEGAL_NOTICE.md](LEGAL_NOTICE.md) and [Terms of Service](docs/terms.html) for full details.
 
 **License:** [CC BY-SA 4.0](LICENSE) — derivative works must retain all legal disclaimers.
 
@@ -9,6 +9,17 @@
 **Version 1.2.0** — April 2026
 
 No software to install. No API keys to configure. Just copy one prompt, paste it into an AI chatbot, describe your invention, and go. Each stage automatically produces the input for the next stage — one copy-paste per stage, six total.
+
+---
+
+## Choose your PatentForge tier
+
+| | What it is | Best for |
+|---|---|---|
+| **PatentForge Prompts** — you are here | 6 prompts you paste into any AI (Claude, Gemini Advanced). No install, no API keys, no cost beyond your chatbot subscription. | Inventors who want to try the analysis pipeline before committing to a desktop install, or who already have a paid Claude / Gemini plan and prefer a browser workflow. |
+| **[PatentForge](https://github.com/scottconverse/patentforge)** | Desktop app (Windows / macOS / Linux). Runs locally on Ollama + Gemma 4 (fully offline, free) or with the Anthropic Claude API (cloud, your key). Adds 3-agent claim drafting, 5-agent patent-application generation, USPTO PatentSearch integration, compliance checks, Word/HTML/Markdown exports. | Inventors who want privacy (local mode never leaves your hardware), or who want the full claim-drafting / application-generation workflow beyond just feasibility analysis. |
+
+Both tiers share the same 6-stage feasibility analysis pattern. The prompts here are the no-install entry tier; PatentForge adds the workflow surface around them.
 
 ---
 
@@ -186,7 +197,7 @@ Every prompt is a plain text file. You can edit them to:
 ## File List
 
 ```
-PA prompt system/
+PatentForge Prompts/
 +-- README.md                              This file
 +-- 00-common-rules.md                     Reference only (rules are baked into each stage)
 +-- Stage-1-Technical-Intake.md            START HERE — paste into Claude + add your description
@@ -221,4 +232,4 @@ PA prompt system/
 
 ---
 
-*Developed and tested on Anthropic's Claude. Gemini Advanced is a supported alternative. Other LLMs lack the context window size required for later stages. Free-tier LLMs are not recommended. v1.2.0 — April 2026.*
+*Developed and tested on Anthropic's Claude. Gemini Advanced is a supported alternative. Other LLMs lack the context window size required for later stages. Free-tier LLMs are not recommended. v1.2.0 — April 2026. Part of the [PatentForge](https://github.com/scottconverse/patentforge) family.*

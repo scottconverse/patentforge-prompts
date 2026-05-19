@@ -1,4 +1,4 @@
-# Patent Analyzer Prompts — User Manual
+# PatentForge Prompts — User Manual
 
 **For anyone, regardless of technical background.**
 
@@ -8,7 +8,7 @@
 
 ## What Is This?
 
-Patent Analyzer Prompts is a free set of instructions (called "prompts") that you copy and paste into an AI chatbot. The chatbot then walks you through a six-step research process to help you understand whether your invention idea might be patentable — and what to do next.
+PatentForge Prompts is a free set of instructions (called "prompts") that you copy and paste into an AI chatbot. The chatbot then walks you through a six-step research process to help you understand whether your invention idea might be patentable — and what to do next.
 
 Think of it like a structured interview. You describe your invention, and the AI asks the right questions, searches for similar inventions that already exist, checks your idea against patent law requirements, and produces a plain-English report you can take to a patent attorney.
 
@@ -29,7 +29,7 @@ Think of it like a structured interview. You describe your invention, and the AI
 
 2. **Your invention description** — a written explanation of what your invention does, how it works, and what makes it different from what already exists. The more detail you provide, the better the analysis. Even a few paragraphs will work, but a page or two of technical detail produces much stronger results.
 
-3. **The prompt files** — download them from [github.com/scottconverse/patent-analyzer-prompts](https://github.com/scottconverse/patent-analyzer-prompts). Click the green "Code" button, then "Download ZIP." Unzip the folder on your computer.
+3. **The prompt files** — download them from [github.com/scottconverse/patentforge-prompts](https://github.com/scottconverse/patentforge-prompts). Click the green "Code" button, then "Download ZIP." Unzip the folder on your computer.
 
 ---
 
@@ -150,5 +150,5 @@ Solution: Look at the Plain-English Summary section (Section 10 of the final rep
 
 ---
 
-*Patent Analyzer Prompts v1.2.0 — April 2026*
+*PatentForge Prompts v1.2.0 — April 2026*
 *This is a research tool, not legal advice. Always consult a registered patent attorney.*

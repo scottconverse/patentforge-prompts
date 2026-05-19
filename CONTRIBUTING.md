@@ -1,15 +1,15 @@
-# Contributing to Patent Analyzer Prompts
+# Contributing to PatentForge Prompts
 
-Thank you for your interest in improving Patent Analyzer Prompts.
+Thank you for your interest in improving PatentForge Prompts.
 
 ## How This Project Works
 
-Patent Analyzer Prompts is a set of 6 markdown files containing carefully structured prompts for AI-assisted patent landscape research. There is no software to build or install — the prompts are copied directly into AI chat interfaces.
+PatentForge Prompts is a set of 6 markdown files containing carefully structured prompts for AI-assisted patent landscape research. There is no software to build or install — the prompts are copied directly into AI chat interfaces.
 
 ## How to Contribute
 
 ### Reporting Issues
-- Use [GitHub Issues](https://github.com/scottconverse/patent-analyzer-prompts/issues) to report bugs, inaccuracies, or suggestions
+- Use [GitHub Issues](https://github.com/scottconverse/patentforge-prompts/issues) to report bugs, inaccuracies, or suggestions
 - Include which stage prompt is affected and what the issue is
 - If a prompt produces incorrect or misleading output, include the input you used and the problematic output
 

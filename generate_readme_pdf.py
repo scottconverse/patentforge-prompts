@@ -1,4 +1,4 @@
-"""Generate a professionally formatted PDF for the PA Prompt System README."""
+"""Generate a professionally formatted PDF for the PatentForge Prompts README."""
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.colors import HexColor
@@ -20,8 +20,13 @@ WARN_BG = HexColor("#fff3e0")
 GREEN_BG = HexColor("#e8f5e9")
 
 def build_pdf():
+    import os
+    output_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "PatentForge-Prompts-README.pdf",
+    )
     doc = SimpleDocTemplate(
-        r"C:\Users\scott\Downloads\patent-analyzer-prompts-main\patent-analyzer-prompts-main\Patent-Analyzer-Prompt-System-README.pdf",
+        output_path,
         pagesize=letter,
         topMargin=0.75*inch, bottomMargin=0.75*inch,
         leftMargin=0.85*inch, rightMargin=0.85*inch,
@@ -89,8 +94,8 @@ def build_pdf():
 
     # ===== TITLE =====
     story.append(Spacer(1, 40))
-    story.append(Paragraph("Patent Analyzer", title_style))
-    story.append(Paragraph("Prompt System v1.2.0", subtitle_style))
+    story.append(Paragraph("PatentForge Prompts", title_style))
+    story.append(Paragraph("v1.2.0", subtitle_style))
     story.append(Paragraph(
         "<b>A 6-stage AI prompt pipeline that turns an invention description into a "
         "comprehensive patent feasibility analysis.</b>", body_bold))

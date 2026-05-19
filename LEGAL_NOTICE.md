@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Patent Analyzer Prompts is an AI-powered patent landscape research tool. It provides a structured set of prompts that help inventors organize their thinking about an invention before consulting a patent attorney. It is a research and educational tool, not a legal service.
+PatentForge Prompts is an AI-powered patent landscape research tool. It provides a structured set of prompts that help inventors organize their thinking about an invention before consulting a patent attorney. It is a research and educational tool, not a legal service.
 
 ## What This Is NOT
 
