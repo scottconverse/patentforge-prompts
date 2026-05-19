@@ -5,6 +5,28 @@ All notable changes to PatentForge Prompts (formerly Patent Analyzer Prompts; re
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-05-19
+
+### Changed
+- **Renamed repository from `patent-analyzer-prompts` to `patentforge-prompts`.** GitHub keeps a 301 redirect from the old URL for years; existing clones and links continue to resolve. New canonical URL: https://github.com/scottconverse/patentforge-prompts.
+- **Rebranded as "PatentForge Prompts" — the entry tier of the [PatentForge](https://github.com/scottconverse/patentforge) family.** Same 6-stage feasibility analysis pipeline as before; the desktop app at `scottconverse/patentforge` adds 3-agent claim drafting, 5-agent patent-application generation, USPTO PatentSearch integration, and compliance checks on top of the same prompts.
+- README rewritten with a new "Choose your PatentForge tier" 2-tier comparison table at the top (PatentForge Prompts ⟷ PatentForge desktop app). Mirrors the 3-tier civic-newsroom / civic-transparency-toolkit / civic-scanner family pattern.
+- All textual references to the old name updated across CHANGELOG.md, CONTRIBUTING.md, LEGAL_NOTICE.md, USER-MANUAL.md, docs/index.html, docs/terms.html, generate_readme_pdf.py. CHANGELOG retains a single deliberate provenance line documenting the rename.
+- GitHub Pages site now lives at https://scottconverse.github.io/patentforge-prompts/ (the old URL https://scottconverse.github.io/patent-analyzer-prompts/ does NOT redirect — GitHub Pages does not auto-redirect on repo rename; existing repo URL 301 redirect IS in place at the github.com level).
+- Repo description, topics, and OG meta updated to reflect new branding.
+
+### Added
+- Bidirectional cross-link: `scottconverse/patentforge` master README now includes a new H2 "Other PatentForge tools" section pointing here.
+- `PatentForge-Prompts-README.pdf` (regenerated from rebranded README via `generate_readme_pdf.py`).
+
+### Removed
+- `Patent-Analyzer-Prompt-System-README.pdf` (replaced by `PatentForge-Prompts-README.pdf` above).
+
+### Provenance
+This rename + rebrand landed via the github-cleanup-2026-05-18 administrative cleanup
+sweep (agent-pipeline-claude v2.0 pipeline run id `2026-05-19-github-cleanup-sweep`).
+No prompt content changed; this release is brand-only.
+
 ## [1.2.0] - 2026-04-07
 
 ### Changed
